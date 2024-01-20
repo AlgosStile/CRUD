@@ -4,12 +4,25 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Модель пользователя.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
+    /**
+     * Уникальный идентификатор пользователя.
+     */
     private int id;
-    private String firstName;
-    private String lastName;
 
+    /**
+     * Имя пользователя.
+     */
+    private String firstName;
+
+    /**
+     * Фамилия пользователя.
+     */
+    private String lastName;
 }
