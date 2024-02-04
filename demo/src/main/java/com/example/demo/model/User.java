@@ -11,18 +11,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-    /**
-     * Уникальный идентификатор пользователя.
-     */
+
     private int id;
 
-    /**
-     * Имя пользователя.
-     */
     private String firstName;
 
-    /**
-     * Фамилия пользователя.
-     */
     private String lastName;
 }

@@ -19,6 +19,7 @@
 ## Технологии
 - Java
 - Spring Boot
+- AOP
 - Spring MVC
 - Thymeleaf
 - Lombok

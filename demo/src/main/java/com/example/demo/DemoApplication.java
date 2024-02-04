@@ -2,13 +2,14 @@ package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
- * Главный класс приложения.
- * После запуска главного класса, приложение позволяет создавать, добавлять,
- * редактировать и удалять пользователей.
+ * Главный класс для запуска приложения
  */
+@Configuration
+@EnableAspectJAutoProxy
 @SpringBootApplication
 public class DemoApplication {
 
