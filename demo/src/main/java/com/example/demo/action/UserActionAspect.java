@@ -4,7 +4,11 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
-
+/**
+ * Аспект, используемый для отслеживания действий пользователя в слое сервиса.
+ * Этот аспект перехватывает выполнение методов, помеченных аннотацией TrackUserAction,
+ * и регистрирует соответствующие действия пользователя.
+ */
 @Aspect
 @Component
 public class UserActionAspect {
