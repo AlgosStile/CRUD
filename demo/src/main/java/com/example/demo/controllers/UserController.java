@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
+/**
+ * Контроллер, обрабатывающий запросы, связанные с пользователем.
+ * Отображает страницы для работы с пользователями и обрабатывает соответствующие HTTP-запросы.
+ */
 @Controller
 @RequiredArgsConstructor
 public class UserController {
