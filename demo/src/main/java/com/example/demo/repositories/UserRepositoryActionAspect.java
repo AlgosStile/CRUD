@@ -18,4 +18,3 @@ public class UserRepositoryActionAspect {
         System.out.println("Зарегистрировано действие в хранилище: " + joinPoint.getSignature().getName());
     }
 }
-
